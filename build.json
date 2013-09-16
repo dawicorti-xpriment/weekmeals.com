@@ -1,0 +1,16 @@
+{
+
+    "paths": {
+        "jquery": "bower_components/jquery/jquery",
+        "underscore": "bower_components/underscore/underscore",
+        "backbone": "bower_components/backbone/backbone",
+    },
+    "shim": {
+        "jquery": {"exports": "$"},
+        "underscore": {"exports": "_"},
+        "backbone": {"exports": "Backbone", "deps": ["jquery", "underscore"]}
+    },
+    "optimize": "none",
+    "name": "build/amd/index.js",
+    "out": "public/weekmeals.js"
+}

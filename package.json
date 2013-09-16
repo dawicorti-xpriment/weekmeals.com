@@ -1,0 +1,24 @@
+{
+  "name": "weekmeals.com",
+  "version": "0.0.1",
+  "description": "Front and Web service side",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dawicorti/weekmeals.com.git"
+  },
+  "author": "David Corticchiato",
+  "license": "BSD",
+  "dependencies": {
+    "requirejs": "~2.1.8",
+    "passport": "~0.1.17",
+    "express": "~3.4.0",
+    "mongoose": "~3.6.19",
+    "passport-local": "~0.1.6",
+    "bower": "~1.2.6",
+    "grunt-amd-wrap": "~1.0.1",
+    "grunt-cli": "~0.1.9",
+    "grunt": "~0.4.1",
+    "amd-wrap": "~1.0.1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "weekmeals.com",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dawicorti/weekmeals.com",
+  "authors": [
+    "David Corticchiato <david.corticchiato@gmail.com>"
+  ],
+  "description": "Save and print meals",
+  "main": "lib/client/main.js",
+  "keywords": [
+    "week",
+    "meals",
+    "print",
+    "lunch"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.2",
+    "backbone": "~1.0.0",
+    "requirejs": "~2.1.8",
+    "requirejs-text": "~2.0.10"
+  }
+}
