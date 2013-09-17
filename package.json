@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git://github.com/dawicorti/weekmeals.com.git"
   },
+  "scripts": {
+    "post-install": "./node_modules/.bin/grunt"
+  },
   "author": "David Corticchiato",
   "license": "BSD",
   "dependencies": {
@@ -19,6 +22,9 @@
     "grunt-amd-wrap": "~1.0.1",
     "grunt-cli": "~0.1.9",
     "grunt": "~0.4.1",
-    "amd-wrap": "~1.0.1"
+    "amd-wrap": "~1.0.1",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-bower-task": "~0.3.2",
+    "grunt-contrib-clean": "~0.5.0"
   }
 }
