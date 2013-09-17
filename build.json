@@ -12,5 +12,6 @@
     },
     "optimize": "none",
     "name": "build/amd/index.js",
-    "out": "public/weekmeals.js"
+    "out": "public/weekmeals.js",
+    "deps": ["bower_components/requirejs/require"]
 }
