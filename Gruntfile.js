@@ -3,7 +3,13 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         clean: ['build', 'public/weekmeals.js'],
-        bower: {install: {}},
+        bower: {
+            install: {
+                options: {
+                    targetDir: './build/lib'
+                }
+            }
+        },
         amdwrap: {
             usingDynamicExpansion: {
                 expand: true,
@@ -17,9 +23,9 @@ module.exports = function(grunt) {
                 options: {
                     baseUrl: './',
                     paths: {
-                        jquery: 'bower_components/jquery/jquery',
-                        underscore: 'bower_components/underscore/underscore',
-                        backbone: 'bower_components/backbone/backbone',
+                        jquery: 'build/lib/jquery/jquery',
+                        underscore: 'build/lib/underscore/underscore',
+                        backbone: 'build/lib/backbone/backbone',
                     },
                     shim: {
                         jquery: {exports: '$'},
@@ -29,7 +35,7 @@ module.exports = function(grunt) {
                     optimize: 'none',
                     name: './build/amd/index.js',
                     out: 'public/weekmeals.js',
-                    deps: ['bower_components/requirejs/require']
+                    deps: ['build/lib/requirejs/require']
                 }
             }
         }

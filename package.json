@@ -8,7 +8,7 @@
     "url": "git://github.com/dawicorti/weekmeals.com.git"
   },
   "scripts": {
-    "post-install": "./node_modules/.bin/grunt"
+    "postinstall": "./node_modules/.bin/grunt"
   },
   "author": "David Corticchiato",
   "license": "BSD",
